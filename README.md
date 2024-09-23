@@ -33,7 +33,7 @@ Copy code
 npm start
 Running the Application
 Ensure that the backend server is running on the default port (usually 5000).
-Open your browser and go to http://localhost:3000 to access the frontend.
+Open your browser and go to [http://localhost:3000](http://ravi-frontend-s3.s3-website.eu-north-1.amazonaws.com) to access the frontend.
 You can register a new user, log in, and start managing posts.
 Components Overview
 Auth Components:
