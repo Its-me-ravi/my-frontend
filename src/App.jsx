@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Routes>
+        <Routes basename="/my-frontend">
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/posts" element={<PostList />} />

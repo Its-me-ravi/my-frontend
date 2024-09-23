@@ -12,7 +12,10 @@ const Register = () => {
     try {
       const res = await axios.post('http://localhost:5000/api/auth/register', formData);
       console.log(res.data);
+      
+      
       navigate('/login');  // Redirect to login after registration
+      
     } catch (error) {
       console.error(error.response.data);
     }
